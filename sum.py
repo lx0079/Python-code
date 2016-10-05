@@ -1,6 +1,5 @@
 with open ('/home/sum.txt','r') as f :
 	data = f.readlines()
-	
 	for line in data:
 		num = line.split()
 		numbers_int = map(int, num)
